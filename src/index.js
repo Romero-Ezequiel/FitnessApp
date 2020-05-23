@@ -1,17 +1,27 @@
+// const elemento = document.createElement('h1');
+// elemento.innerText = 'Hola React';
+
+// const contenedor = document.getElementById('root');
+// contenedor.appendChild(elemento);
+
 import React from 'react';
+import Tarjeta from './componentes/Tarjeta';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// const usuario = {
+//     nombre:'Ezequiel',
+//     apellido: 'Romero',
+//     avatar: 'https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-256.png'
+// }
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// function getNombre(usuario){
+//     return `${usuario.nombre}`
+// }
+
+// //const nombre = 'Ezequiel Romero';
+
+// const elemento = <h1>Hola {getNombre(usuario)}</h1>
+
+const contenedor = document.getElementById('root');
+//ReactDOM.render(__QUE__,__DONDE__)
+ReactDOM.render(<Tarjeta/>, contenedor);
