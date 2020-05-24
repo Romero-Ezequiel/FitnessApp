@@ -5,8 +5,9 @@
 // contenedor.appendChild(elemento);
 
 import React from 'react';
-import Tarjeta from './componentes/Tarjeta';
 import ReactDOM from 'react-dom';
+
+import Mostrar from './pages/Mostrar';
 
 // const usuario = {
 //     nombre:'Ezequiel',
@@ -24,4 +25,4 @@ import ReactDOM from 'react-dom';
 
 const contenedor = document.getElementById('root');
 //ReactDOM.render(__QUE__,__DONDE__)
-ReactDOM.render(<Tarjeta/>, contenedor);
+ReactDOM.render(<Mostrar />, contenedor);
