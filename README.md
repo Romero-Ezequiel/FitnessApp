@@ -9,4 +9,3 @@
 ### _Demo_
 
 
-* **_Ezequiel Romero_**  
