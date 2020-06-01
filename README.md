@@ -9,6 +9,5 @@
 
 ### _Demo_
 
-### Autor ✒️
 
 * **_Ezequiel Romero_**  
