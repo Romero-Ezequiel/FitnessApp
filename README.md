@@ -4,7 +4,6 @@
 ### Construido con 🛠️
 
  
-### Instalación 🔧
 
 
 ### _Demo_
